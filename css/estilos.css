@@ -1,0 +1,137 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font-family: arial;
+	font-size: 12px;
+}
+#header {
+	height:60px;
+	/*gradiente*/
+	background-image: linear-gradient(bottom, rgb(124,175,194) 35%, rgb(45,143,179) 66%);
+	background-image: -o-linear-gradient(bottom, rgb(124,175,194) 35%, rgb(45,143,179) 66%);
+	background-image: -moz-linear-gradient(bottom, rgb(124,175,194) 35%, rgb(45,143,179) 66%);
+	background-image: -webkit-linear-gradient(bottom, rgb(124,175,194) 35%, rgb(45,143,179) 66%);
+	background-image: -ms-linear-gradient(bottom, rgb(124,175,194) 35%, rgb(45,143,179) 66%);
+	
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0.35, rgb(124,175,194)),
+		color-stop(0.66, rgb(45,143,179))
+	);	
+}
+#body1 {
+	width:410px;
+	float:left;
+}
+#mostrar_dato {
+	float: left;
+	left: 426px;
+	top: 72px;
+}
+#fooder {
+	float:left;
+}
+#logo {
+	float:left;
+	height:60px;
+	width:220px;
+	font-family:Arial, Helvetica, sans-serif;
+	text-align:center;
+
+	/*texto logo*/
+	font-size: 150%;
+	font-size-adjust: 0.5; 
+	text-shadow: 5px 5px 8px #d1a22c;
+        filter: dropshadow(color=#d1a22c, offx=5, offy=5);
+
+}
+#login {
+	/*gradiente*/
+	background-image: linear-gradient(bottom, rgb(124,175,194) 35%, rgb(45,143,179) 66%);
+	background-image: -o-linear-gradient(bottom, rgb(124,175,194) 35%, rgb(45,143,179) 66%);
+	background-image: -moz-linear-gradient(bottom, rgb(124,175,194) 35%, rgb(45,143,179) 66%);
+	background-image: -webkit-linear-gradient(bottom, rgb(124,175,194) 35%, rgb(45,143,179) 66%);
+	background-image: -ms-linear-gradient(bottom, rgb(124,175,194) 35%, rgb(45,143,179) 66%);
+	
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0.35, rgb(124,175,194)),
+		color-stop(0.66, rgb(45,143,179))
+	);	
+	/*Esquinas redondeadas*/
+	-webkit-border-radius: 10px;    
+    border-radius: 10px;
+	width: 450px;	/*Ancho*/
+	height:150px;	/*Alto*/
+	padding:20px;
+}
+.button {
+   border-top: 1px solid #96d1f8;
+   background: #65a9d7;
+   background: -webkit-gradient(linear, left top, left bottom, from(#3e779d), to(#65a9d7));
+   background: -webkit-linear-gradient(top, #3e779d, #65a9d7);
+   background: -moz-linear-gradient(top, #3e779d, #65a9d7);
+   background: -ms-linear-gradient(top, #3e779d, #65a9d7);
+   background: -o-linear-gradient(top, #3e779d, #65a9d7);
+   padding: 12px 24px;
+   -webkit-border-radius: 13px;
+   -moz-border-radius: 13px;
+   border-radius: 13px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: white;
+   font-size: 16px;
+   font-family: Helvetica, Arial, Sans-Serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+.button:hover {
+   border-top-color: #28597a;
+   background: #28597a;
+   color: #ccc;
+   }
+.button:active {
+   border-top-color: #1b435e;
+   background: #1b435e;
+   }
+
+
+/* css de la tabla */
+table {border-collapse: collapse;} 
+caption { caption-side: bottom; } 
+th {background-color: #c5c5c5;color: black;} 
+td, th {border: 1px solid black;padding: 5px;} 
+table table th {background-color: #orange;} 
+tr:nth-child(odd){ background: #fcfcfc;}
+tr:nth-child(even){ background: #dbdbdb;}
+
+
+/* css tooltip del error en la validación del campo input del formulario */
+.error{
+	background-color: #BC1010;
+	padding: 6px 12px;
+	border-radius: 4px;
+	color: white;
+	font-weight: bold;
+	margin-left: 16px;
+	margin-top: 6px;
+	position: absolute;
+	display: none;
+}
+.error:before{
+	content: '';
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    border-right: 8px solid #BC1010;
+    border-left: 8px solid transparent;
+    left: -16px;
+    position: absolute;
+    top: 5px;
+}

@@ -1,0 +1,38 @@
+
+/* structure */
+/* Most of the time we don't need to edit the structure */
+.jlogin { position:relative}
+.jlogin .jwrapper { padding:15px;position:absolute; width:100%; height:auto}
+.jlogin h2 { margin:0;}
+.jlogin p  { white-space:pre}
+.jlogin .jmessage { font-size:11px; font-weight:bold; padding:5px; margin:5px 0 5px 0; display:none; text-align:center}
+.jlogin label {float:left; clear:left; width:100px;}
+.jlogin .jtext, .jlogin label {padding: 8px 4px 6px 3px;}
+.jlogin .jrem,.jlogin .jdivsubmit {margin:0 0 0 100px; padding:10px 0 0 0}
+.jlogin .jdivsubmit { margin-bottom:10px} 
+.jlogin .jrem { width:auto;}
+.jlogin .jrem input { margin-right:5px;}
+.jlogin input { float:left; margin-bottom:3px;}
+.jlogin .jtext { width:205px;}
+.jlogin .jsubmit { margin:0; padding:0; cursor:pointer; border:0; background:none; width:100px; height:38px;}	
+.jlogin .jtarget { display:none}
+.jlogin .jloader, .jlogin .jloader-progress { height:2px;}
+.jlogin .jloader { width:100%; background:#FFFFFF; display:none}
+.jlogin .jloader-progress { width:50px;position:absolute;} 
+.jlogin div{ clear:both}
+
+
+
+/* default skin*/
+/* We are free to edit the skin */
+.jlogin .jwrapper {background:#c5d6e1; border:1px solid #768087; border-radius:10px;}
+.jlogin .jmessage { color:#990000}
+.jlogin h2 { color:#666666}
+.jlogin, .jlogin .jtext{ color:#999999; font-family:Geneva, Arial, Helvetica, sans-serif}	
+.jlogin p { font-size:12px;}
+.jlogin label { font-size:12px; font-weight:bold}
+.jlogin .jtext { border:1px solid #999999;font-size:12px;color:#333333}		
+.jlogin .jrem input { border:1px solid #F2F2F2} 
+.jlogin .jsubmit { background:url(../img/login-btn.png)}
+.jlogin .jsubmit:hover{ background:url(../img/login-btn.hover.png)}
+.jlogin .jloader-progress {background-color:#FF9900}

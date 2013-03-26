@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Recordset1" value="name:id_movimiento;datatype:int,name:juzgado;datatype:int,name:tipo;datatype:int,name:ciudad;datatype:string,name:caja;datatype:int,name:legajo;datatype:int,name:rol;datatype:string,name:fecha_inicio;datatype:date,name:fecha_termino;datatype:date,name:nombre_demandado;datatype:string,name:apellido_demandado;datatype:string,name:nombre_demandante;datatype:string,name:apellido_demandante;datatype:string,name:tipo de juicio;datatype:string,name:notas;datatype:blob,name:funcionario;datatype:string,name:fecha;datatype:datetime" />
+</info>

@@ -1,0 +1,10 @@
+/* blue theme */
+.jlogin .jwrapper { background:#2380A0;-moz-border-radius: 1em 2em 1em 2em;border-radius: 1em 2em 1em 2em;}
+.jlogin h2, .jlogin p, .jlogin label { color:#FFFFFF}
+.jlogin .jmessage { color:#BB2424; margin-top:0; padding-top:0}
+
+.jlogin .jdivsubmit { margin-bottom:5px} 
+.jlogin label { font-size:12px; font-weight:bold}
+.jlogin .jtext { border:1px solid #1B647C;font-size:13px;color:#333333; width:250px}		
+.jlogin .jloader {width:98%;}
+.jlogin .jloader-progress {background-color:#FF3333}
