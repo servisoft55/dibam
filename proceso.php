@@ -94,7 +94,7 @@ $totalRows_Recordset1 = mysql_num_rows($Recordset1);
     <th colspan="4" ><input type="button" name="button" id="boton1" value="Ingresar Causa" /></th>
   </tr>
   <tr>
-    <td colspan="4" scope="col"><h3>Sistema Archivo Nacional:  Busqueda...</h3>
+    <td colspan="4" scope="col"><h3>Sistema Archivo Nacional:  <...Busqueda...></h3>
     </td>
   </tr>
   <tr>
